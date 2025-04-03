@@ -1,0 +1,44 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  .nav-menu {
+    border: none;
+    background-color: #fff;
+    font-size: 1.5rem;
+    color: #fca61f;
+  }
+  
+  .navbar-nav a {
+    color: black;
+    position: relative;
+  }
+  
+  .navbar-nav a:hover {
+    color: #fca61f;
+  }
+  
+  .navbar-nav a:after {
+    content: "";
+    display: block;
+    height: 2px;
+    background: #fca61f;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    transition: width 0.3s ease, left 0.3s ease;
+  }
+  
+  .navbar-nav a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  
+  .c-btn {
+    border: none;
+    background: #fca61f;
+    color: #fff;
+    font-size: 1.2rem;
+  }
